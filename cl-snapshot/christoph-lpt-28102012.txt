@@ -1,0 +1,4 @@
+number = 4
+result = 5
+hostname = christoph-lpt
+time = " 02:24:29 up 1 day, 12:09,  2 users,  load average: 0,33, 0,29, 0,43"
