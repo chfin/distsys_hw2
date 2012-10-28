@@ -9,17 +9,18 @@ There are two ways to start the programm:
   2. load "cl-snapshot" via [quicklisp](http://www.quicklisp.org/beta/) (or cl-snapshot.asd via asdf)
   3. run `(snap:run-server)`
 * Run compiled binary (x86_64 only, unless you build it yourself):
-
-    $ ./snap [host1 host2 ...]
+```
+$ ./snap [host1 host2 ...]
+```
 
 
 ## Build standalone executable
 
 Make sure sbcl is in your path and quicklisp is installed.
 Simly run
-
-    $ ./build.sh
-
+```
+$ ./build.sh
+```
 
 ## Notes
 
