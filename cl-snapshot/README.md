@@ -9,6 +9,7 @@ There are two ways to start the programm:
   2. load "cl-snapshot" via quicklisp (or cl-snapshot.asd via asdf)
   3. run `(snap:run-server)`
 * Run compiled binary (x86_64 only, unless you build it yourself):
+
 ```shell
 $ ./snap [host1 host2 ...]
 ```
