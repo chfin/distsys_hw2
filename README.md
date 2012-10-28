@@ -20,5 +20,7 @@ You can define hostnames to notify as additional arguments
 
 ## Common Lisp
 
+Ignore this ;)
+
 See [cl-snapshot/README.md](https://github.com/chfin/distsys_hw2/blob/master/cl-snapshot/README.md) for instructions.
 This will not run on ukko, unless you compile a more recent version of sbcl yourself.
