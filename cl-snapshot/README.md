@@ -5,8 +5,8 @@
 There are two ways to start the programm:
 
 * Load the system in a running lisp session
-  1. start sbcl/clisp/ccl/...
-  2. load "cl-snapshot" via quicklisp (or cl-snapshot.asd via asdf)
+  1. start [sbcl](http://www.sbcl.org)/clisp/ccl/...
+  2. load "cl-snapshot" via [quicklisp](http://www.quicklisp.org/beta/) (or cl-snapshot.asd via asdf)
   3. run `(snap:run-server)`
 * Run compiled binary (x86_64 only, unless you build it yourself):
 
