@@ -3,6 +3,10 @@
 A snapshot program.
 
 It listens on port 19835 for the line "snapshot" and saves a snapshot file in it's working direktory. Optionally, other hosts can be notified.
+To request a snapshot you can for example use
+```
+$ echo "snapshot" | nc host 19835
+```
 
 ## Python
 
