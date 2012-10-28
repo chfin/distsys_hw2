@@ -69,3 +69,14 @@
 	   (snapshot)
 	   ;;notify other nodes
 	   (mapcar #'notify *outgoing*))))))
+
+;;; functions for standalone version
+(defun main (argv)
+  (let ((*outgoing* (rest argv)))
+    (run-server)))
+
+(defun sb-main ()
+  (handler-case (main sb-ext:*posix-argv*)
+    (sb-sys:interactive-interrupt ()
+      (format t "interrupted...~%")
+      (sb-ext:exit))))
