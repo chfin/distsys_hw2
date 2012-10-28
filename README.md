@@ -7,8 +7,11 @@ It listens on port 19835 for the line "snapshot" and saves a snapshot file in it
 ## Python
 
 Run the python version with
+
     $ ./snap.py
+
 You can define hostnames to notify as additional arguments
+
     $ ./snap.py host1 host2 ...
 
 ## Common Lisp

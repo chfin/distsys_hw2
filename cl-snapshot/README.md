@@ -10,17 +10,16 @@ There are two ways to start the programm:
   3. run `(snap:run-server)`
 * Run compiled binary (x86_64 only, unless you build it yourself):
 
-```shell
-$ ./snap [host1 host2 ...]
-```
+    $ ./snap [host1 host2 ...]
+
 
 ## Build standalone executable
 
 Make sure sbcl is in your path and quicklisp is installed.
 Simly run
-```shell
-$ ./build.sh
-```
+
+    $ ./build.sh
+
 
 ## Notes
 
